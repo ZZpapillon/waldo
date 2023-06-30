@@ -1,0 +1,28 @@
+.backgroundCont{
+  position: absolute;
+  left: -4.5vw;
+  top: -1vh;
+  width: 107.5vw;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+body {
+  overflow: hidden;
+}
+
+.timer {
+  justify-self: end!important;
+}
+.modal-open {
+  pointer-events: none;
+}
+
+.found-pokemon {
+  /* Add your desired styles here */
+  display: none;
+  background-color: green;
+  border: 2px solid green;
+  /* ... */
+}
